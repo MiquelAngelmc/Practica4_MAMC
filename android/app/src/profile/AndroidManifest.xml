@@ -4,4 +4,14 @@
          to allow setting breakpoints, to provide hot reload, etc.
     -->
     <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:label="qr_scan_plantilla"
+        android:icon="@mipmap/ic_launcher">
+
+        <!-- Aquí añadimos la meta-data para la API Key de Google Maps -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="TU_API_KEY_AQUI" />
+
+    </application>
 </manifest>
